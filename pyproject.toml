@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "poetry-init"
+version = "0.1.0"
+description = ""
+authors = ["ejik-sasha <112908553+ejik-sasha@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<4.0"
+pyjwt = {extras = ["crypto"], version = "^2.10.1"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
